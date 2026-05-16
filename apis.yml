@@ -7,11 +7,209 @@ tags:
   - Cruise Lines
   - Travel
   - Hospitality
-description: 'The world''s largest cruise company operating a portfolio of nine cruise line brands including Carnival Cruise Line, Princess Cruises, Holland America Line, and Costa Cruises. Serves millions of guests annually with over 90 ships sailing to hundreds of destinations globally.'
+  - Mobile Apps
+  - Loyalty
+  - Wearables
+description: >-
+  Carnival Corporation & plc is the world's largest cruise company operating
+  eight cruise line brands (Carnival Cruise Line, Princess Cruises, Holland
+  America Line, Seabourn, Cunard, P&O Cruises, Costa Cruises, AIDA Cruises),
+  plus the White Pass and Yukon Route. Carnival operates the OceanMedallion
+  wearable IoT technology and mobile experience platform, the Carnival HUB
+  app, the Princess MedallionClass app, and a portfolio of guest-facing
+  digital experiences across its fleet of over 90 ships.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: carnival-corporation:ocean-medallion
+    name: OceanMedallion
+    tags:
+      - Wearable
+      - IoT
+      - Personalization
+      - Cruise Experience
+    humanURL: https://www.princess.com/en-us/ships-and-experience/ocean-medallion
+    properties:
+      - url: https://www.princess.com/en-us/ships-and-experience/ocean-medallion
+        type: Documentation
+    description: >-
+      OceanMedallion is Carnival Corporation's wearable IoT device and
+      experience platform deployed across Princess Cruises and being
+      adopted across other Carnival brands. The medallion enables
+      keyless stateroom entry, contactless payments, personalized
+      service, location-aware experiences, and integration with the
+      MedallionClass mobile app.
+
+  - aid: carnival-corporation:medallion-class-app
+    name: Princess MedallionClass App
+    tags:
+      - Mobile App
+      - Cruise
+      - Booking
+      - Onboard Experience
+    humanURL: https://www.princess.com/en-us/ships-and-experience/ocean-medallion/app
+    properties:
+      - url: https://www.princess.com/en-us/ships-and-experience/ocean-medallion/app
+        type: Documentation
+    description: >-
+      The Princess MedallionClass app is the companion mobile experience
+      for OceanMedallion. It manages pre-cruise planning, online check-in,
+      shore-excursion booking, dining reservations, onboard purchases,
+      stateroom services, and real-time messaging with travel companions.
+
+  - aid: carnival-corporation:carnival-hub-app
+    name: Carnival HUB App
+    tags:
+      - Mobile App
+      - Cruise
+      - Onboard
+      - Communication
+    humanURL: https://www.carnival.com/about-carnival/carnival-hub-app
+    properties:
+      - url: https://www.carnival.com/about-carnival/carnival-hub-app
+        type: Documentation
+    description: >-
+      The Carnival HUB app is the official Carnival Cruise Line companion
+      app for managing pre-cruise check-in, daily schedules, dining
+      reservations, shore excursions, onboard messaging with travel
+      companions, and embarkation logistics.
+
+  - aid: carnival-corporation:holland-america-navigator
+    name: Holland America Navigator App
+    tags:
+      - Mobile App
+      - Cruise
+      - Onboard
+    humanURL: https://www.hollandamerica.com/en/us/onboard-experience/navigator-app
+    properties:
+      - url: https://www.hollandamerica.com/en/us/onboard-experience/navigator-app
+        type: Documentation
+    description: >-
+      The Holland America Navigator app is the companion mobile app for
+      Holland America Line guests offering itinerary management, dining
+      reservations, shore-excursion booking, account management, and
+      onboard service requests.
+
+  - aid: carnival-corporation:carnival-vifp-club
+    name: Carnival VIFP Club
+    tags:
+      - Loyalty
+      - Rewards
+      - Cruise
+    humanURL: https://www.carnival.com/vifp-club
+    properties:
+      - url: https://www.carnival.com/vifp-club
+        type: Documentation
+    description: >-
+      Carnival VIFP (Very Important Fun Person) Club is Carnival Cruise
+      Line's loyalty program with tiered status based on cruise days.
+      Members receive priority booking, onboard perks, complimentary
+      services, and exclusive offers.
+
+  - aid: carnival-corporation:princess-captains-circle
+    name: Princess Captain's Circle
+    tags:
+      - Loyalty
+      - Rewards
+      - Cruise
+    humanURL: https://www.princess.com/en-us/cruise-deals-promotions/captains-circle
+    properties:
+      - url: https://www.princess.com/en-us/cruise-deals-promotions/captains-circle
+        type: Documentation
+    description: >-
+      Princess Captain's Circle is Princess Cruises' loyalty program
+      offering tiered membership benefits including priority embarkation,
+      onboard perks, exclusive events, and members-only offers based on
+      number of cruises sailed.
+
+  - aid: carnival-corporation:holland-america-mariner-society
+    name: Holland America Mariner Society
+    tags:
+      - Loyalty
+      - Rewards
+      - Cruise
+    humanURL: https://www.hollandamerica.com/en/us/mariner-society
+    properties:
+      - url: https://www.hollandamerica.com/en/us/mariner-society
+        type: Documentation
+    description: >-
+      Mariner Society is Holland America Line's loyalty program offering
+      tiered benefits including stateroom upgrades, onboard credit,
+      complimentary internet, and priority services for repeat guests.
+
+  - aid: carnival-corporation:cruise-booking-portal
+    name: Carnival Brand Booking Portals
+    tags:
+      - Booking
+      - Reservations
+      - Cruise
+    humanURL: https://www.carnival.com/cruise-search
+    properties:
+      - url: https://www.carnival.com/cruise-search
+        type: Documentation
+    description: >-
+      Each Carnival Corporation brand operates its own online booking
+      portal for cruise search, itinerary selection, stateroom selection,
+      payment, and reservation management. Travel-agent variants integrate
+      with travel-agency systems.
 common:
   - type: Website
     url: https://www.carnivalcorp.com/
+  - type: InvestorRelations
+    url: https://www.carnivalcorp.com/investor-relations
+  - type: Brands
+    url: https://www.carnivalcorp.com/our-brands
+  - type: Sustainability
+    url: https://www.carnivalcorp.com/sustainability
+  - type: Features
+    data:
+      - name: Wearable IoT Cruise Experience
+        description: OceanMedallion personalizes the onboard guest experience using BLE-based wearables.
+      - name: Mobile Cruise Apps
+        description: Brand-specific mobile apps for onboard navigation, dining, and service requests.
+      - name: Online Check-In
+        description: Pre-cruise digital check-in for embarkation across all Carnival brands.
+      - name: Shore Excursion Booking
+        description: Browse and reserve port-of-call excursions through brand apps and websites.
+      - name: Dining Reservations
+        description: Make and manage specialty-dining reservations digitally.
+      - name: Loyalty Programs
+        description: Tiered repeat-guest loyalty programs across all major brands.
+      - name: Travel Agent Tools
+        description: Travel-agent-facing booking systems for all Carnival brands.
+  - type: UseCases
+    data:
+      - name: Cruise Vacation Planning
+        description: Search, book, and plan multi-segment cruise vacations across global itineraries.
+      - name: Onboard Experience Personalization
+        description: Use wearable and mobile technology to personalize service throughout the voyage.
+      - name: Family Cruise Coordination
+        description: Mobile apps let family groups coordinate dining, excursions, and onboard activities.
+      - name: Repeat-Guest Loyalty Engagement
+        description: Encourage repeat bookings through tiered loyalty programs.
+      - name: Travel Agent Bookings
+        description: Travel-agency channel partnerships using agent-facing booking tools.
+  - type: Integrations
+    data:
+      - name: Princess Cruises
+        description: Subsidiary brand operating MedallionClass and Captain's Circle programs.
+      - name: Carnival Cruise Line
+        description: Subsidiary brand operating Carnival HUB app and VIFP Club loyalty.
+      - name: Holland America Line
+        description: Subsidiary brand operating Navigator app and Mariner Society loyalty.
+      - name: Seabourn
+        description: Subsidiary ultra-luxury cruise brand.
+      - name: Cunard
+        description: Subsidiary heritage transatlantic and luxury cruise brand.
+      - name: P&O Cruises
+        description: UK-market cruise brand subsidiary.
+      - name: Costa Cruises
+        description: European Mediterranean cruise brand subsidiary.
+      - name: AIDA Cruises
+        description: German-market cruise brand subsidiary.
+      - name: White Pass and Yukon Route
+        description: Skagway, Alaska railroad and port retail operation.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
