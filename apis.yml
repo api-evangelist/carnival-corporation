@@ -154,6 +154,8 @@ apis:
       payment, and reservation management. Travel-agent variants integrate
       with travel-agency systems.
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/carnival-corporation
   - type: Website
     url: https://www.carnivalcorp.com/
   - type: InvestorRelations
