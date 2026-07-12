@@ -154,6 +154,10 @@ apis:
       payment, and reservation management. Travel-agent variants integrate
       with travel-agency systems.
 common:
+  - type: DomainSecurity
+    url: security/carnival-corporation-domain-security.yml
+  - url: https://www.carnivalcorp.com/feed/
+    type: Blog
   - type: LinkedIn
     url: https://www.linkedin.com/company/carnival-corporation
   - type: Website
