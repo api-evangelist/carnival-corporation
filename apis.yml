@@ -31,7 +31,7 @@ description: >-
   digital experiences across its fleet of over 90 ships.
 created: '2026-05-05'
 modified: '2026-05-16'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: carnival-corporation:ocean-medallion
     name: OceanMedallion
