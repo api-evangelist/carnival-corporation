@@ -75,6 +75,11 @@ apis:
       - Mobile App
       - Cruise
       - Onboard
+      - Communications
+    tags_raw:
+      - Mobile App
+      - Cruise
+      - Onboard
       - Communication
     humanURL: https://www.carnival.com/about-carnival/carnival-hub-app
     properties:
