@@ -29,6 +29,13 @@ tags:
   - Cruise Lines
   - Travel
   - Hospitality
+  - Mobile App
+  - Loyalty
+  - Wearables
+tags_raw:
+  - Cruise Lines
+  - Travel
+  - Hospitality
   - Mobile Apps
   - Loyalty
   - Wearables
@@ -47,6 +54,11 @@ apis:
   - aid: carnival-corporation:ocean-medallion
     name: OceanMedallion
     tags:
+      - Wearables
+      - IoT
+      - Personalization
+      - Cruise Experience
+    tags_raw:
       - Wearable
       - IoT
       - Personalization
