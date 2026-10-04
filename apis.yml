@@ -1,6 +1,6 @@
 aid: carnival-corporation
 url: https://raw.githubusercontent.com/api-evangelist/carnival-corporation/refs/heads/main/apis.yml
-name: Carnival Corporation
+name: Carnival
 type: Index
 deliveryModel:
   model: unknown
@@ -75,60 +75,8 @@ apis:
       service, location-aware experiences, and integration with the
       MedallionClass mobile app.
 
-  - aid: carnival-corporation:medallion-class-app
-    name: Princess MedallionClass App
-    tags:
-      - Mobile App
-      - Cruise
-      - Booking
-      - Onboard Experience
-    humanURL: https://www.princess.com/en-us/ships-and-experience/ocean-medallion/app
-    properties:
-      - url: https://www.princess.com/en-us/ships-and-experience/ocean-medallion/app
-        type: Documentation
-    description: >-
-      The Princess MedallionClass app is the companion mobile experience
-      for OceanMedallion. It manages pre-cruise planning, online check-in,
-      shore-excursion booking, dining reservations, onboard purchases,
-      stateroom services, and real-time messaging with travel companions.
 
-  - aid: carnival-corporation:carnival-hub-app
-    name: Carnival HUB App
-    tags:
-      - Mobile App
-      - Cruise
-      - Onboard
-      - Communications
-    tags_raw:
-      - Mobile App
-      - Cruise
-      - Onboard
-      - Communication
-    humanURL: https://www.carnival.com/about-carnival/carnival-hub-app
-    properties:
-      - url: https://www.carnival.com/about-carnival/carnival-hub-app
-        type: Documentation
-    description: >-
-      The Carnival HUB app is the official Carnival Cruise Line companion
-      app for managing pre-cruise check-in, daily schedules, dining
-      reservations, shore excursions, onboard messaging with travel
-      companions, and embarkation logistics.
 
-  - aid: carnival-corporation:holland-america-navigator
-    name: Holland America Navigator App
-    tags:
-      - Mobile App
-      - Cruise
-      - Onboard
-    humanURL: https://www.hollandamerica.com/en/us/onboard-experience/navigator-app
-    properties:
-      - url: https://www.hollandamerica.com/en/us/onboard-experience/navigator-app
-        type: Documentation
-    description: >-
-      The Holland America Navigator app is the companion mobile app for
-      Holland America Line guests offering itinerary management, dining
-      reservations, shore-excursion booking, account management, and
-      onboard service requests.
 
   - aid: carnival-corporation:carnival-vifp-club
     name: Carnival VIFP Club
@@ -258,3 +206,4 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-legal-name: Carnival Corporation
