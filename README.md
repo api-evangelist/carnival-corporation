@@ -1,4 +1,4 @@
-# Carnival Corporation (carnival-corporation)
+# Carnival
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,53 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Carnival Corporation & plc is the world's largest cruise company operating eight cruise line brands (Carnival Cruise Line, Princess Cruises, Holland America Line, Seabourn, Cunard, P&O Cruises, Costa Cruises, AIDA Cruises), plus the White Pass and Yukon Route. Carnival operates the OceanMedallion wearable IoT technology and mobile experience platform, the Carnival HUB app, the Princess MedallionClass app, and a portfolio of guest-facing digital experiences.
+Carnival Corporation & plc is the world's largest cruise company operating eight cruise line brands (Carnival Cruise Line, Princess Cruises, Holland America Line, Seabourn, Cunard, P&O Cruises, Costa Cruises, AIDA Cruises), plus the White Pass and Yukon Route. Carnival operates the OceanMedallion wearable IoT technology and mobile experience platform, the Carnival HUB app, the Princess MedallionClass app, and a portfolio of guest-facing digital experiences across its fleet of over 90 ships.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/carnival-corporation/refs/heads/main/apis.yml)
+**Areas:** Cruise Lines · Travel · Hospitality · Mobile App · Loyalty · Wearables
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Carnival on APIs.io
 
-## Tags:
+Everything profiled for Carnival is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/carnival-corporation/](https://apis.io/providers/carnival-corporation/)** — or go straight to one of the APIs or properties below.
 
- - Cruise Lines, Travel, Hospitality, Mobile Apps, Loyalty, Wearables
+### APIs (5)
 
-## Timestamps
+- [OceanMedallion](https://apis.io/apis/carnival-corporation/ocean-medallion/) — OceanMedallion is Carnival Corporation's wearable IoT device and experience platform deployed across Princess Cruises and being adopted across other…
+- [Carnival VIFP Club](https://apis.io/apis/carnival-corporation/carnival-vifp-club/) — Carnival VIFP (Very Important Fun Person) Club is Carnival Cruise Line's loyalty program with tiered status based on cruise days. Members receive priority…
+- [Princess Captain's Circle](https://apis.io/apis/carnival-corporation/princess-captains-circle/) — Princess Captain's Circle is Princess Cruises' loyalty program offering tiered membership benefits including priority embarkation, onboard perks, exclusive…
+- [Holland America Mariner Society](https://apis.io/apis/carnival-corporation/holland-america-mariner-society/) — Mariner Society is Holland America Line's loyalty program offering tiered benefits including stateroom upgrades, onboard credit, complimentary internet, and…
+- [Carnival Brand Booking Portals](https://apis.io/apis/carnival-corporation/cruise-booking-portal/) — Each Carnival Corporation brand operates its own online booking portal for cruise search, itinerary selection, stateroom selection, payment, and reservation…
 
-- **Created:** 2026-05-05
-- **Modified:** 2026-05-16
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### OceanMedallion
-Wearable IoT device and experience platform for keyless entry, payments, and personalized service.
+#### Security (1)
 
-### Princess MedallionClass App
-Companion mobile app for OceanMedallion with planning, booking, and onboard services.
+Authentication, trust centre, and vulnerability disclosure.
 
-### Carnival HUB App
-Carnival Cruise Line companion app for daily schedules, dining, excursions, and onboard messaging.
+- [Carnival Corporation Domain Security](https://apis.io/security/carnival-corporation/carnival-corporation-domain-security/)
 
-### Holland America Navigator App
-Companion mobile app for Holland America Line guests.
+## Where to find this API
 
-### Carnival VIFP Club
-Carnival Cruise Line's tiered loyalty rewards program.
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-### Princess Captain's Circle
-Princess Cruises' loyalty program with tiered membership.
+- [Website](https://www.carnivalcorp.com/)
+- [Blog](https://www.carnivalcorp.com/feed/)
 
-### Holland America Mariner Society
-Holland America Line's repeat-guest loyalty program.
+## API Evangelist rating
 
-### Carnival Brand Booking Portals
-Brand-specific cruise search and reservation portals.
+**Kin Score 7.3** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Common
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 0.0 |
 
-- **Website:** https://www.carnivalcorp.com/
-- **Brands:** https://www.carnivalcorp.com/our-brands
+**Agent readiness 0.0** — human-only
 
-## Maintainers
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-- **FN:** Kin Lane
-- **Email:** kin@apievangelist.com
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/carnival-corporation/](https://apis.io/providers/carnival-corporation/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Carnival: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/carnival-corporation/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
